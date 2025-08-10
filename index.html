@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz Maker - Local</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Quiz Maker (Local)</h1>
+
+    <section id="create" class="card">
+      <h2>Create Quiz</h2>
+      <input id="quiz-title" placeholder="Quiz title" />
+      <div id="questions-area"></div>
+      <button id="add-q" class="btn">Add Question</button>
+      <button id="save-quiz" class="btn primary">Save Quiz</button>
+    </section>
+
+    <section id="list" class="card">
+      <h2>Saved Quizzes</h2>
+      <div id="quizzes-list"></div>
+    </section>
+
+    <section id="play" class="card" style="display:none">
+      <h2 id="play-title"></h2>
+      <form id="play-form"></form>
+      <button id="back" class="btn">Back</button>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
