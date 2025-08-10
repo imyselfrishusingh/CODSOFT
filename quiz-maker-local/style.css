@@ -7,3 +7,4 @@ header{display:flex;justify-content:space-between;align-items:center}
 .btn{padding:8px 10px;border-radius:6px;border:none;cursor:pointer;background:#444;color:#fff}
 .btn.primary{background:#0b5cff}
 input{width:100%;padding:8px;margin:6px 0;border:1px solid #ddd;border-radius:6px}
+
