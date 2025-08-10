@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini Store - Local</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header><h1>Mini Store</h1><div>Cart: <span id="count">0</span></div></header>
+    <section id="products" class="grid"></section>
+
+    <div id="cart" class="card">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div id="total"></div>
+      <input id="name" placeholder="Full name" />
+      <input id="email" placeholder="Email" />
+      <button id="place" class="btn primary">Place Order</button>
+      <div id="order-msg"></div>
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
